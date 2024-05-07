@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Outfit;
+}
+
+main {
+    background: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    color: white;
+    width: fit-content;
+    /* width: 26%; */
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 5%;
+}
+
+span img {
+    width: 19rem;
+    border-radius: 3%;
+}
+
+.product {
+    margin-top: 0.3rem;
+}
+
+.product-info {
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.product-name {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.7rem;
+}
+
+.price {
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    color: hsl(178, 100%, 50%);
+}
+
+.price img {
+    width: 0.8rem;
+}
+
+.price p {
+    margin-left: 0.5rem;
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+}
+
+.days {
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.days img {
+    width: 1rem;
+}
+
+.days p {
+    margin-left: 1rem;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+hr {
+    border: 1px solid hsl(215, 51%, 70%);
+    height: 0.1rem;
+    width: 100%;
+    margin-top: 1.2rem;
+}
+
+.creator {
+    display: flex;
+    margin-top: 7%;
+}
+
+.creator img {
+    width: 10%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 7%;
+}
+
+.creator p:not(.name) {
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.creator .name {
+    font-weight: 400;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width:375px){
+    section{
+        padding: 2.5rem;
+    }
+}
